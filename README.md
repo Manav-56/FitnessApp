@@ -45,3 +45,16 @@ I have included a majors [sheet](https://github.com/Manav-56/FitnessApp/blob/mai
 -  Push code on the regular basis to GitHUb with meaningful message while  commiting code. It allows you see in the future, what commits you have done it.  
 -  Naming Conventions
 -  Give meaningful comment whenever possible, it allows anyones to understand your code better.
+
+### 6 IDE 
+
+For this application development, I utilized PyCharm as an IDE. PyCharm is a development tool for the Python programming language.
+
+PyCharm has numerous capabilities , one of which is an integrated git plugin for committing, pushing and pulling.
+
+Shortcuts I used while making this application :
+
+- Ctrl + Shift + K : For Push Commit to application.
+- Ctrl + k : For commit.
+- Used TAB: For automatic get variable or function name  when typing.
+
