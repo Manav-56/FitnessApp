@@ -34,3 +34,14 @@ I created a [problem space](https://github.com/Manav-56/FitnessApp/blob/main/Doc
 I utilized SonarQube, which automatically analyzes the submitted source code based on various criteria. SonarQube is an open-source tool for continuous code quality inspection that does automated inspections with static code analysis to find bugs and code smells, as well as many other Matrices.
 
 I've included a screenshot of the [SonarQube](https://github.com/Manav-56/FitnessApp/blob/main/Docs/SonarCubeActivity.png) dashboard that describes several matrices for this application.
+
+### 5 Clean Code Development
+
+I have included a majors [sheet](https://github.com/Manav-56/FitnessApp/blob/main/Docs/info.py) that I used when completing this application. This project was created with the Python programming language.
+
+-  Used either ' ' or " " throught out the application develpoment. I used ' ' for this application.
+-  Use Constant for avoid re-write same code
+-  Give meaningful name to variables and functions
+-  Push code on the regular basis to GitHUb with meaningful message while  commiting code. It allows you see in the future, what commits you have done it.  
+-  Naming Conventions
+-  Give meaningful comment whenever possible, it allows anyones to understand your code better.
