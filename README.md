@@ -27,3 +27,10 @@ For this application, I produced three separate UML diagrams. If colors are used
 ### 3 DDD
 
 I created a [problem space](https://github.com/Manav-56/FitnessApp/blob/main/Docs/DDD_Problem_Space.png) with several subdomains that needed to be implemented for the project.  As shown in purple color that part already has  been implemented, , while others will be implemented in the future, as shown in gree color n, once I will  receive the investment from Edlich.
+
+
+### 4 Matrics
+
+I utilized SonarQube, which automatically analyzes the submitted source code based on various criteria. SonarQube is an open-source tool for continuous code quality inspection that does automated inspections with static code analysis to find bugs and code smells, as well as many other Matrices.
+
+I've included a screenshot of the [SonarQube](https://github.com/Manav-56/FitnessApp/blob/main/Docs/SonarCubeActivity.png) dashboard that describes several matrices for this application.
