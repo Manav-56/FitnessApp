@@ -7,20 +7,19 @@ print(
 option=int(input('Select any option '))
 if option == 1:
     def bmr_computation():
-        while True:
             weight_in_kg = input('Enter Your Weight In Kilogram ')
             if weight_in_kg.isnumeric():
                 weight_in_kg=float(weight_in_kg)
             else:
                 print('Please Enter a Vaild Input For weight')
-                break
+                return False
 
             height_in_cm = input('Enter Your Height In Centimeter ')
             if height_in_cm.isnumeric():
                 height_in_cm=int(height_in_cm)
             else:
                 print('Please Enter a Vaild Input For height')
-                break
+                return False
 
 
             age = input('Enter Your Age ')
@@ -28,21 +27,24 @@ if option == 1:
                 age=int(age)
             else:
                 print('Please Enter a Vaild Input For Age')
-                break
+                return False
 
             gender = (input('Enter M For Male and F For Female ')).upper()
 
             if gender == 'M':
                     bmr = int(((10*weight_in_kg)+(6.25*height_in_cm)-(5*age)+5))
                     print('Your Basal metabolic rate is ' + str(bmr) + ' kcal' + '.')
-                    break
+
+
             elif gender == 'F':
                     bmr = int(((10 * weight_in_kg) + (6.25 * height_in_cm) - (5 * age) -161))
                     print('Your Basal metabolic rate(BMR) is ' + str(bmr) + ' kcal' + '.')
-                    break
+
+
             else:
                     print('Please Enter a Vaild Input For Age')
-                    break
+
+
 
     # BMR = (10 × weight in kg) + (6.25 × height in cm) − (5 × age in years) + 5
     bmr_computation()
@@ -93,10 +95,17 @@ elif option == 2:
         # 1 gm of carbs = 4 clorie
         grams_of_carbs = int(calories_carbs / 4)
 
+        YOU_NEED = 'You need '
+        CALORIE = ' calorie and '
+        GRAMS_OF_FAT = ' grams of fat.'
+        GRAMS_OF_PROTEIN =' grams of protein.'
+        GRAMS_OF_CARBS = ' grams of carbs.'
+
+
         print('FOR MAINTAING YOUR CALORIES :')
-        print('You need ' + str(calories_fat) + ' calorie and ' + str(grams_of_fat) + ' grams of fat.')
-        print('You need ' + str(calories_protein) + ' calorie and ' + str(grams_of_protein) + ' grams of protein.')
-        print('You need ' + str(calories_carbs) + ' calorie and ' + str(grams_of_carbs) + ' grams of carbs.')
+        print(YOU_NEED + str(calories_fat) + CALORIE + str(grams_of_fat) + GRAMS_OF_FAT)
+        print(YOU_NEED + str(calories_protein) + CALORIE + str(grams_of_protein) + GRAMS_OF_PROTEIN)
+        print(YOU_NEED  + str(calories_carbs) + CALORIE + str(grams_of_carbs) + GRAMS_OF_CARBS)
         print(' ')
 
     # calculate macros for Bulking
@@ -120,14 +129,14 @@ elif option == 2:
 
 
         print('FOR BULKING YOUR CALORIES :')
-        print('You need ' + str(calories_fat) + ' calorie and ' + str(grams_of_fat) + ' grams of fat.')
-        print('You need ' + str(calories_protein) + ' calorie and ' + str(grams_of_protein) + ' grams of protein.')
-        print('You need ' + str(calories_carbs) + ' calorie and ' + str(grams_of_carbs) + ' grams of carbs.')
+        print(YOU_NEED + str(calories_fat) + CALORIE+ str(grams_of_fat) + GRAMS_OF_FAT)
+        print(YOU_NEED + str(calories_protein) + CALORIE + str(grams_of_protein) + GRAMS_OF_PROTEIN)
+        print(YOU_NEED + str(calories_carbs) + CALORIE + str(grams_of_carbs) + GRAMS_OF_CARBS)
         print(' ')
 
     # calculate macros for Weight loss
         # for loosing take 200 calorie deficit in BMR
-        required_cal-=200
+        required_cal = required_cal-200
         # 2.2 * your body weight needs to maintain your protein intake
         grams_of_protein = int(2.2 * weight)
         # 1 gm of protein = 4 clorie
@@ -145,10 +154,11 @@ elif option == 2:
 
 
 
-        print('FOR WEIGHT GAINING YOUR CALORIES :')
-        print('You need ' + str(calories_fat) + ' calorie and ' + str(grams_of_fat) + ' grams of fat.')
-        print('You need ' + str(calories_protein) + ' calorie and ' + str(grams_of_protein) + ' grams of protein.')
-        print('You need ' + str(calories_carbs) + ' calorie and ' + str(grams_of_carbs) + ' grams of carbs.')
+        print('FOR LOOSING YOUR CALORIES :')
+        print(YOU_NEED + str(calories_fat) + CALORIE + str(grams_of_fat) + GRAMS_OF_FAT)
+        print(YOU_NEED + str(calories_protein) + CALORIE + str(grams_of_protein) + GRAMS_OF_PROTEIN)
+        print(YOU_NEED + str(calories_carbs) + CALORIE + str(grams_of_carbs) + GRAMS_OF_CARBS)
+
 
 
 
