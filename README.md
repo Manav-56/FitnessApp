@@ -11,7 +11,7 @@ A Fitness Application is found in this repository. That user can assess their B
 
 ### 1 Git
 
-I used Git to commit and publish my work to GitHub on a regular basis, and I did everything in my IDE (PyCharm), regularly uploading my code to GitHub through IDE. My git timings can be viewed on the GitHub contribution chart.
+I used Git to commit and publish my work to GitHub on a regular basis, and I did everything in my IDE (PyCharm), regularly uploading my code to GitHub through IDE. My git timings can be viewed on the GitHub [contribution chart](https://github.com/Manav-56).
 
 ### 2 UML
 
