@@ -21,7 +21,6 @@ if option == 1:
                 print('Please Enter a Vaild Input For height')
                 return False
 
-
             age = input('Enter Your Age ')
             if age.isnumeric():
                 age=int(age)
@@ -35,16 +34,12 @@ if option == 1:
                     bmr = int(((10*weight_in_kg)+(6.25*height_in_cm)-(5*age)+5))
                     print('Your Basal metabolic rate is ' + str(bmr) + ' kcal' + '.')
 
-
             elif gender == 'F':
                     bmr = int(((10 * weight_in_kg) + (6.25 * height_in_cm) - (5 * age) -161))
                     print('Your Basal metabolic rate(BMR) is ' + str(bmr) + ' kcal' + '.')
 
-
             else:
                     print('Please Enter a Vaild Input For Age')
-
-
 
     # BMR = (10 × weight in kg) + (6.25 × height in cm) − (5 × age in years) + 5
     bmr_computation()
@@ -101,7 +96,6 @@ elif option == 2:
         GRAMS_OF_PROTEIN =' grams of protein.'
         GRAMS_OF_CARBS = ' grams of carbs.'
 
-
         print('FOR MAINTAING YOUR CALORIES :')
         print(YOU_NEED + str(calories_fat) + CALORIE + str(grams_of_fat) + GRAMS_OF_FAT)
         print(YOU_NEED + str(calories_protein) + CALORIE + str(grams_of_protein) + GRAMS_OF_PROTEIN)
@@ -125,8 +119,6 @@ elif option == 2:
         calories_carbs = int(required_cal - (calories_protein + calories_fat))
         # 1 gm of carbs = 4 clorie
         grams_of_carbs = int(calories_carbs / 4)
-
-
 
         print('FOR BULKING YOUR CALORIES :')
         print(YOU_NEED + str(calories_fat) + CALORIE+ str(grams_of_fat) + GRAMS_OF_FAT)
@@ -152,17 +144,10 @@ elif option == 2:
         # 1 gm of carbs = 4 clorie
         grams_of_carbs = int(calories_carbs / 4)
 
-
-
         print('FOR LOOSING YOUR CALORIES :')
         print(YOU_NEED + str(calories_fat) + CALORIE + str(grams_of_fat) + GRAMS_OF_FAT)
         print(YOU_NEED + str(calories_protein) + CALORIE + str(grams_of_protein) + GRAMS_OF_PROTEIN)
         print(YOU_NEED + str(calories_carbs) + CALORIE + str(grams_of_carbs) + GRAMS_OF_CARBS)
-
-
-
-
-
 
     bmr = int(input('Enter Your Basal metabolic rate(BMR) in kcal '))
     weight=int(input('Enter Your weight in kilograms '))
