@@ -26,7 +26,7 @@ For this application, I produced three separate UML diagrams. If colors are used
 
 ### 3 DDD
 
-I created a [problem space](https://github.com/Manav-56/FitnessApp/blob/main/Docs/DDD_Problem_Space.png) with several subdomains that needed to be implemented for the project.  As shown in purple color that part already has  been implemented, , while others will be implemented in the future, as shown in gree color n, once I will  receive the investment from Edlich.
+I created a [problem space](https://github.com/Manav-56/FitnessApp/blob/main/Docs/DDD%20Problem%20Space.png) with several subdomains that needed to be implemented for the project.  As shown in purple color that part already has  been implemented, , while others will be implemented in the future, as shown in gree color n, once I will  receive the investment from Edlich.
 
 
 ### 4 Matrics
