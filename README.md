@@ -2,6 +2,8 @@
 
 An App that aids in Health Maintenance 
 
+## I have currently implemented two of the five features. This application is currently being worked on. ## 
+
 ## Exercise A for Advanced Software Engineering
 
 ### General
