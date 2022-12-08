@@ -15,7 +15,7 @@
 
 # 5) Give meaningful name to variables and functions
 
-# 6) Give meaningful comment whenever possible, it allows anyones to understand your better.
+# 6) Give meaningful comment whenever possible, it allows anyones to understand your code better.
 
 # 7) Push code on the regular basis to GitHUb with meaningful message while  commiting code. It allows you see in the future, what commits you have done it.  
 
