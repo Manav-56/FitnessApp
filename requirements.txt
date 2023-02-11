@@ -1,0 +1,4 @@
+pywebio == 1.7.1
+pytest
+py-edamam
+requests == 2.28.1
