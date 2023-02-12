@@ -190,7 +190,6 @@ class CalFatProtienSugarForFood:
 
 
 if __name__ == "__main__":
-
     from pywebio.output import use_scope
     from pywebio.input import actions
 
