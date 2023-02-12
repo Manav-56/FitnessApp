@@ -26,7 +26,7 @@ For this application, I produced three separate UML diagrams. If colors are used
 
 ### 3 DDD
 
-I created a [problem space](https://github.com/Manav-56/FitnessApp/blob/main/Docs/DDD%20Problem%20Space%20Final.png) with several subdomains that needed to be implemented for the project.  As shown in purple color that part already has  been implemented, , while others will be implemented in the future, as shown in gree color n, once I will  receive the investment from Edlich.
+I created a [problem space](https://github.com/Manav-56/FitnessApp/blob/main/Docs/DDD%20Problem%20Space%20Final.png) with several subdomains that needed to be implemented for the project.  As shown in green color that part already has  been implemented, , while others will be implemented in the future, as shown in yellow color , once I will  receive the investment from Edlich.
 
 
 ### 4 Matrics
@@ -44,6 +44,7 @@ I utilized SonarQube, which automatically analyzes the submitted source code bas
 - Lines of Code :[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Manav-56_FitnessApp)
 - Code smells :[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Manav-56_FitnessApp)
 - Technical Debt [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=Manav-56_FitnessApp)
+
 Quick overview of SonarCloud analysis can be found [here](https://sonarcloud.io/summary/overall?id=Manav-56_FitnessApp).
 
 
