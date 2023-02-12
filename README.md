@@ -1,7 +1,11 @@
 # FitnessApp
 
 An App that aids in Health Maintenance 
-
+### Features :
+- Major Basal metabolic rate(BMR)
+- Know Your Body Mass Index
+- Find Your Daily Calorie Needs
+- Get Calorie, Fat, Protein and Sugar for your food
 ## Exercise A for Advanced Software Engineering
 
 ### General
@@ -56,7 +60,7 @@ I have included a majors [sheet](https://github.com/Manav-56/FitnessApp/blob/mai
 -  Use Constant for avoid re-write same code. [Example](https://github.com/Manav-56/FitnessApp/blob/main/files/bmi.py#L6)
 -  Give meaningful name to variables and functions. [Example](https://github.com/Manav-56/FitnessApp/blob/main/files/bmi.py#L41)
 -  Naming Conventions [Example](https://github.com/Manav-56/FitnessApp/blob/main/files/bmi.py#L182)
--  Give meaningful comment whenever possible, it allows anyones to understand your code better. [Example](https://github.com/Manav-56/FitnessApp/blob/main/files/bmi.py#L70)
+-  Give meaningful comment whenever possible, it allows anyones to understand your code better. [Example](https://github.com/Manav-56/FitnessApp/blob/main/files/bmi.py#L82)
 
 ### 6 Build Management
 
