@@ -6,6 +6,11 @@ An App that aids in Health Maintenance
 - Know Your Body Mass Index
 - Find Your Daily Calorie Needs
 - Get Calorie, Fat, Protein and Sugar for your food
+
+### GUI of Application
+- [HomePage](https://github.com/Manav-56/FitnessApp/blob/main/Docs/GUI_1.png)
+- [User_Choice](https://github.com/Manav-56/FitnessApp/blob/main/Docs/GUI_2.png)
+
 ## Exercise A for Advanced Software Engineering
 
 ### General
