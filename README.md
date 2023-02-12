@@ -50,7 +50,7 @@ Quick overview of SonarCloud analysis can be found [here](https://sonarcloud.io/
 
 ### 5 Clean Code Development
 
-I have included a majors [sheet](https://github.com/Manav-56/FitnessApp/blob/main/Docs/info.py) that I used when completing this application. This project was created with the Python programming language.
+I have included a majors [sheet](https://github.com/Manav-56/FitnessApp/blob/main/files/sheet.py) that I used when completing this application. This project was created with the Python programming language.
 
 -  Used either ' ' or " " throught out the application develpoment. I used " " for this application. [Example](https://github.com/Manav-56/FitnessApp/blob/main/files/bmi.py#L18)
 -  Use Constant for avoid re-write same code. [Example](https://github.com/Manav-56/FitnessApp/blob/main/files/bmi.py#L6)
