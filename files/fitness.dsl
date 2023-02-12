@@ -23,8 +23,6 @@
 90 sugar
 
 
-5 sugar
-
 Total Number of calorie consume?
 Total Number of protein consume?
 Total Number of fat consume?
