@@ -119,7 +119,7 @@ This DSL has no relevance on my FitnessApp project ( it written be in python lan
 
 In this program, individuals can find out how much they eat in terms of calories, sugar, protein, and sugar. Overall, what they eat and how much calorie, sugar, protein, and sugar they consume on a daily basis from dawn to night. This will assist them in tracking food measurement.
 
-The external DSL code is stored in the [.dsl file](https://github.com/Manav-56/FitnessApp/blob/main/fitness.dsl). The [interpreter](https://github.com/Manav-56/FitnessApp/blob/main/fitness.py) converts the .dsl file into Python code and runs each line.
+The external DSL code is stored in the [.dsl file](https://github.com/Manav-56/FitnessApp/blob/main/files/fitness.dsl). The [interpreter](https://github.com/Manav-56/FitnessApp/blob/main/fitness.py) converts the .dsl file into Python code and runs each line.
 
 ### 11 Functional Programming
 
