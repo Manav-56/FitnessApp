@@ -78,7 +78,7 @@ I also included the project's final output with the passed test case to demonstr
 
 ### 7 Unit-Tests
 
-I've written a 4 test case to test each of my features before they go into production.
+I've written a 5 test case to test each of my features before they go into production.
 
 I've also provided a [snapshot](https://github.com/Manav-56/FitnessApp/blob/main/Docs/test_case.png) of all passed test cases.
 
