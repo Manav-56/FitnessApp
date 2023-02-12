@@ -1,3 +1,7 @@
+~ For comments, a start ~ is utilized.
+
+~ It includes dsl language.
+
 ~ Morning
 25 calorie
 5 protein
@@ -22,6 +26,8 @@
 70 fat
 90 sugar
 
+
+~ User get answer about following questions. 
 
 Total Number of calorie consume?
 Total Number of protein consume?
