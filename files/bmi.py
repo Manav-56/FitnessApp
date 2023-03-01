@@ -175,8 +175,10 @@ class CalFatProtienSugarForFood:
     def __init__(self, food="1 apple"):
         self.food = food
         self.e = Edamam(
-            nutrition_appid="da191792",
-            nutrition_appkey="a5d0b8aec59b4b425670b3b30e80666d",
+            
+            # here you have to add your credentials 
+            nutrition_appid="",
+            nutrition_appkey="",
         )
 
     def search_nutrient(self):
